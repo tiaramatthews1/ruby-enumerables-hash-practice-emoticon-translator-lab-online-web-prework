@@ -17,9 +17,6 @@ def get_japanese_emoticon(file_path, english_emoticon)
   japanese_result_emoticon = call_library["get_emoticon"][english_emoticon]
   japanese_result_emoticon ? japanese_result_emoticon : "Sorry, that emoticon was not found"
     end
-#above is a terinary operator and it means if the result is true return the left side of the colon. But if its false 
-#return gthe right side of the colon. Terinary does not need an end.
-#A Terinary ia a return statement no need to put a return value at the end. (implicitly returns)
 
 
 def get_english_meaning(file_path, japanese_emoticon)
